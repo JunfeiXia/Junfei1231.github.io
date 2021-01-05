@@ -82,7 +82,6 @@ input, select, textarea {
 	  	overflow: hidden;
 		position: relative;
   		text-align: center;
-		vertical-align: top;
 		top: 15%;
 	}
 
@@ -91,10 +90,12 @@ input, select, textarea {
 		cursor: pointer;
 		margin:auto;
 		font-size: 2em;
-		font-weight: 300;
+		font-weight: bold;
+		line-height: 1em;
+		text-decoration: none;
 		position: absolute;
-  		top: 4%;
-  		right: 4%;
+  		top: 3%;
+  		right: 3%;
 	}
 
 
@@ -103,10 +104,12 @@ input, select, textarea {
 		cursor: pointer;
 		margin:auto;
 		font-size: 2em;
-		font-weight: 300;
+		font-weight: bold;
+		line-height: 1em;
 		position: absolute;
-  		top: 4%;
-  		left: 4%;
+		text-decoration: none;
+  		top: 3%;
+  		left: 3%;
 	}
 
 
