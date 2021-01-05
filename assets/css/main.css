@@ -80,6 +80,10 @@ input, select, textarea {
 		align-items: center;
 	  	justify-content: center;
 	  	overflow: hidden;
+		position: relative;
+		text-align: center;
+		vertical-align: top;
+		top:15%;
 	}
 
 /* TopRight */
