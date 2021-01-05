@@ -81,9 +81,7 @@ input, select, textarea {
 	  	justify-content: center;
 	  	overflow: hidden;
 		position: absolute;
-  		top: 10%;
-  		left: 50%;
-		transform: translate(-10%,-50%);
+  		top: 15%;
 	}
 
 /* TopRight */
