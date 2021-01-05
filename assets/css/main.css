@@ -77,24 +77,26 @@ input, select, textarea {
   		height: 240px;
  		display: flex;
 		border-radius: 50%;
-		/* align-items: center; */
+		align-items: center;
 	  	justify-content: center;
 	  	overflow: hidden;
 		position: absolute;
   		top: 10%;
-  		right: 50%;
+  		left: 50%;
+		transform: translate(-10%,-50%);
 	}
 
 /* TopRight */
 	.topright{
 		cursor: pointer;
 		margin:auto;
-		font-size: 3em;
-		font-weight: 500;
-		line-height: 1em;
+		font-size: 2em;
+		font-weight: 300;
+		letter-spacing: -0.02em;
+		line-height: 0.5em;
 		position: absolute;
-  		top: 0;
-  		right: 0;
+  		top: 2%;
+  		right: 2%;
 	}
 
 
@@ -102,12 +104,13 @@ input, select, textarea {
 	.topleft{
 		cursor: pointer;
 		margin:auto;
-		font-size: 3em;
-		font-weight: 500;
-		line-height: 1em;
+		font-size: 2em;
+		font-weight: 300;
+		letter-spacing: -0.02em;
+		line-height: 0.5em;
 		position: absolute;
-  		top: 0;
-  		left: 0;
+  		top: 2%;
+  		left: 2%;
 	}
 
 
