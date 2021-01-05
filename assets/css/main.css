@@ -77,13 +77,9 @@ input, select, textarea {
   		height: 240px;
  		display: flex;
 		border-radius: 50%;
-		align-items: center;
+		/* align-items: center; */
 	  	justify-content: center;
 	  	overflow: hidden;
-		position: absolute;
-		left: 50%;
-		top: 50%;
-		transform: translate(-50%,-50%);
 	}
 
 /* TopRight */
