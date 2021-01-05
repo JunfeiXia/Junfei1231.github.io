@@ -90,11 +90,10 @@ input, select, textarea {
 		margin:auto;
 		font-size: 2em;
 		font-weight: 300;
-		letter-spacing: -0.02em;
 		line-height: 0.5em;
 		position: absolute;
-  		top: 2%;
-  		right: 2%;
+  		top: 4%;
+  		right: 4%;
 	}
 
 
@@ -104,11 +103,10 @@ input, select, textarea {
 		margin:auto;
 		font-size: 2em;
 		font-weight: 300;
-		letter-spacing: -0.02em;
 		line-height: 0.5em;
 		position: absolute;
-  		top: 2%;
-  		left: 2%;
+  		top: 4%;
+  		left: 4%;
 	}
 
 
