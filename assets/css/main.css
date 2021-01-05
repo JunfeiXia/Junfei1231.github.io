@@ -81,7 +81,7 @@ input, select, textarea {
 		align-items: center;
 	  	justify-content: center;
 	  	overflow: hidden;
-		position: relative;
+		position: center;
 	}
 
 
