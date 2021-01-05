@@ -80,8 +80,10 @@ input, select, textarea {
 		align-items: center;
 	  	justify-content: center;
 	  	overflow: hidden;
-		position: absolute;
-  		top: 15%;
+		position: relative;
+  		text-align: center;
+		vertical-align: top;
+		top: 15%;
 	}
 
 /* TopRight */
@@ -90,7 +92,6 @@ input, select, textarea {
 		margin:auto;
 		font-size: 2em;
 		font-weight: 300;
-		line-height: 0.5em;
 		position: absolute;
   		top: 4%;
   		right: 4%;
@@ -103,7 +104,6 @@ input, select, textarea {
 		margin:auto;
 		font-size: 2em;
 		font-weight: 300;
-		line-height: 0.5em;
 		position: absolute;
   		top: 4%;
   		left: 4%;
