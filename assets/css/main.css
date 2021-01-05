@@ -72,7 +72,7 @@ input, select, textarea {
 }
 
 /* Avatar */
-	.avatar{
+/*	.avatar{
   		width: 240px;
   		height: 240px;
  		display: flex;
@@ -85,7 +85,7 @@ input, select, textarea {
 		vertical-align: top;
 		top:15%;
 	}
-
+*/
 /* TopRight */
 	.topright{
 		cursor: pointer;
@@ -595,6 +595,17 @@ input, select, textarea {
 		vertical-align: middle;
 		width: 90%;
 	}
+		
+		/* Avatar */
+		#header avatar{
+  			width: 240px;
+  			height: 240px;
+ 			display: flex;
+			border-radius: 50%;
+			align-items: center;
+	  		justify-content: center;
+	  		overflow: hidden;
+		}
 
 		#header h1 {
 			font-size: 4.35em;
