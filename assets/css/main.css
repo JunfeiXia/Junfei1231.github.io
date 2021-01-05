@@ -80,9 +80,10 @@ input, select, textarea {
 		align-items: center;
 	  	justify-content: center;
 	  	overflow: hidden;
-		position: relative;
-		text-align: center;
-		vertical-align: top;
+    		position:absolute;
+      		left:50%;
+		top:15%;
+      		transform:translate(-50%,0);
 	}
 
 /* TopRight */
