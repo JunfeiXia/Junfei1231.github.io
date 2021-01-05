@@ -80,12 +80,18 @@ input, select, textarea {
 		/* align-items: center; */
 	  	justify-content: center;
 	  	overflow: hidden;
+		position: absolute;
+  		top: 10%;
+  		right: 50%;
 	}
 
 /* TopRight */
 	.topright{
 		cursor: pointer;
 		margin:auto;
+		font-size: 3em;
+		font-weight: 500;
+		line-height: 1em;
 		position: absolute;
   		top: 0;
   		right: 0;
@@ -96,6 +102,9 @@ input, select, textarea {
 	.topleft{
 		cursor: pointer;
 		margin:auto;
+		font-size: 3em;
+		font-weight: 500;
+		line-height: 1em;
 		position: absolute;
   		top: 0;
   		left: 0;
